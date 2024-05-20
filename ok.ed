@@ -1,0 +1,20 @@
+ console.log(element);
+        element.id = 'root'
+        element.className = "parent"
+        element.style.background = "red"
+      
+
+        document.body.appendChild(element)
+
+        var myh2 = document.createElement("h1")
+        myh2.innerHTML = "hellow"
+        element.appendChild(myh2)
+
+        var myh3 = document.createElement('h3')
+        myh3.innerHTML = "this is "
+        element.appendChild(myh3)
+
+
+         var myh1 = document.createElement("h1")
+        myh1.innerHTML = "hellow"
+        rootelement.appendChild(myh1)
